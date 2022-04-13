@@ -1,5 +1,4 @@
 import csv
-import json
 
 
 class My_file:
@@ -12,9 +11,11 @@ class My_file:
             if not (self.action == 'read' or self.action == 'write'):
                 raise ValueError("Incorrect action")
         except:
-            print("File not found or incorrect action")
+            raise FileNotFoundError("File not found at this path")
 
     def copy(self, way_to_copy):
+        if not (self.action == 'write'):
+            raise ValueError("Incorrect action")
         with open(self.way, 'r', encoding='utf-8') as origin_f:
             origin_text = origin_f.read()
             with open(way_to_copy, 'w', encoding='utf-8') as copy_f:
@@ -31,23 +32,19 @@ class My_file:
 
     def print(self, sep=','):
         if ".csv" in self.way:
-            json_array = []
             with open(self.way, encoding='utf-8') as f_1:
                 csv_reader = csv.DictReader(f_1, delimiter=sep)
-                for row in csv_reader:
-                    json_array.append(row)
-            print(json.dumps(json_array, ensure_ascii=False, indent=4))
+            for row in csv_reader:
+                print(row)
         else:
             raise FileExistsError("Only for '.csv'")
 
     def replace(self, sep_old, sep_new):
-         if (self.action == "write") and (".csv" in self.way):
+        if (self.action == "write") and (".csv" in self.way):
             reader_f = list(csv.reader(open(self.way, 'r', encoding='utf-8'), delimiter=sep_old))
             with open(self.way, 'w', encoding='utf-8') as f:
                 writer_f = csv.writer(f, delimiter=sep_new, lineterminator="\r")
                 for row in reader_f:
                     writer_f.writerow(row)
-         else:
+        else:
             raise ValueError("Incorrect action or file extension")
-
-
