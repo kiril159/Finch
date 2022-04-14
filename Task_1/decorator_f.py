@@ -15,7 +15,7 @@ def decorator_f(funct):
                 log.writelines(
                     f'Название функции:{funct.__name__}, время начала исполнения:{today.strftime("%Y-%m-%d-%H.%M.%S")},'
                     f' функция возвращает:{p} ' + '\n')
+        return funct(*args, **kwargs)
 
     return wrapper
-
 
