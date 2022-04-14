@@ -58,6 +58,6 @@ class My_file:
     @decorator_f
     def print_first_line(self):
         with open(self.way, 'r', encoding='utf-8') as f:
-            return f.readline().rstrip()
+            return f.readline().rstrip('\n')
 
 
