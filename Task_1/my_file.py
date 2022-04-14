@@ -1,7 +1,10 @@
 import csv
+from Task_1.decorator_f import decorator_f
 
 
 class My_file:
+
+    @decorator_f
     def __init__(self, way, action):
         try:
             self.way = way
@@ -13,6 +16,7 @@ class My_file:
         except:
             raise FileNotFoundError("File not found at this path")
 
+    @decorator_f
     def copy(self, way_to_copy):
         if not (self.action == 'write'):
             raise ValueError("Incorrect action")
@@ -22,6 +26,7 @@ class My_file:
                 for line in origin_text:
                     copy_f.writelines(line)
 
+    @decorator_f
     def write_line(self, str_to_file):
         if self.action == 'write':
             with open(self.way, 'a') as f:
@@ -29,15 +34,17 @@ class My_file:
         else:
             raise ValueError("This method only for 'write'")
 
+    @decorator_f
     def print(self, sep=','):
         if ".csv" in self.way:
             with open(self.way, encoding='utf-8') as f_1:
                 csv_reader = csv.DictReader(f_1, delimiter=sep)
-            for row in csv_reader:
-                print(row)
+                for row in csv_reader:
+                    print(row)
         else:
             raise FileExistsError("Only for '.csv'")
 
+    @decorator_f
     def replace(self, sep_old, sep_new):
         if (self.action == "write") and (".csv" in self.way):
             reader_f = list(csv.reader(open(self.way, 'r', encoding='utf-8'), delimiter=sep_old))
@@ -47,3 +54,10 @@ class My_file:
                     writer_f.writerow(row)
         else:
             raise ValueError("Incorrect action or file extension")
+
+    @decorator_f
+    def print_first_line(self):
+        with open(self.way, 'r', encoding='utf-8') as f:
+            return f.readline().rstrip()
+
+
