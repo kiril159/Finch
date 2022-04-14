@@ -23,12 +23,11 @@ class My_file:
                     copy_f.writelines(line)
 
     def write_line(self, str_to_file):
-        try:
-            if self.action == 'write':
-                with open(self.way, 'a') as f:
-                    f.writelines(str_to_file + "\n")
-        except:
-            raise ValueError("Incorrect action")
+        if self.action == 'write':
+            with open(self.way, 'a') as f:
+                f.writelines(str_to_file + "\n")
+        else:
+            raise ValueError("This method only for 'write'")
 
     def print(self, sep=','):
         if ".csv" in self.way:
