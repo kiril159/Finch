@@ -4,7 +4,6 @@ from Task_1.decorator_f import decorator_f
 
 class My_file:
 
-    @decorator_f
     def __init__(self, way, action):
         try:
             self.way = way
