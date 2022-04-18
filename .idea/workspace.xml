@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d2b2767-e9e2-409f-a7b7-655d63293e69" name="Changes" comment="make decoration return">
+    <list default="true" id="3d2b2767-e9e2-409f-a7b7-655d63293e69" name="Changes" comment="__init__ без декоратора">
+      <change afterPath="$PROJECT_DIR$/Task_3/multitreading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_3/output.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_3/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_3/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_3/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_3/test_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_3/test_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_3/try.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1/my_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1/my_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_1/territory_2022.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1/territory_2022.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1/test2/file_copy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1/test2/file_copy.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_1/test2/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1/test2/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,23 +56,49 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Finch/Task#1/Task_1.py" />
+    <property name="exceleditor.install" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.test_decorators">
-    <configuration name="test (print)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Работа" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Кирилл\Desktop\Работа\Task_3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.multitreading">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task_1/test" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task_1/test/test (print).py" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multitreading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Кирилл\PycharmProjects\pythonProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task_3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task_3/multitreading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,6 +128,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Кирилл\PycharmProjects\pythonProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task_3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task_3/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_decorators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Работа" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,41 +170,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in decorator_f.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Работа" />
+    <configuration name="try" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task_1" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Кирилл\PycharmProjects\pythonProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task_3" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Task_1/decorator_f.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_decorators.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Работа" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task_1/test2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Task_1/test2/test_decorators.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task_3/try.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multitreading" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.try" />
         <item itemvalue="Python.test_decorators" />
         <item itemvalue="Python.test (print_first_line)" />
-        <item itemvalue="Python tests.Python tests in decorator_f.py" />
-        <item itemvalue="Python.test (print)" />
-        <item itemvalue="Python tests.Python tests in test_decorators.py" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649932913139</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="'\n'">
+      <created>1649933284391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649933284391</updated>
+    </task>
+    <task id="LOCAL-00005" summary="__init__ без декоратора">
+      <created>1649933537651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649933537651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +264,8 @@
     <MESSAGE value="upadate write_line" />
     <MESSAGE value="make decoration" />
     <MESSAGE value="make decoration return" />
-    <option name="LAST_COMMIT_MESSAGE" value="make decoration return" />
+    <MESSAGE value="'\n'" />
+    <MESSAGE value="__init__ без декоратора" />
+    <option name="LAST_COMMIT_MESSAGE" value="__init__ без декоратора" />
   </component>
 </project>
