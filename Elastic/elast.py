@@ -32,10 +32,10 @@ def elast_kkt(index_name, csv_file):
         if max_seq is None:
             i = 1
         else:
-            i = int(max_seq)
+            i = int(max_seq) + 1
         for row in reader:
             data = json.dumps({'kkt': row[0], 'sequence': i})
             es.index(index=index_name, body=data)
             i += 1
 
-elast_kkt('ppt', 'kkt_info_2021-02-05 3.csv')
+elast_kkt('ppttr', 'kkt_info_2021-02-05 3.csv')
