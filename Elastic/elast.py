@@ -16,7 +16,6 @@ es = Elasticsearch(
 def elast_kkt(index_name, csv_file):
     if not es.indices.exists(index=index_name):
         es.indices.create(index=index_name)
-
     with open(csv_file, mode="r", encoding="utf-8") as file_csv:
         reader = csv.reader(file_csv, delimiter=",")
         max_s = {
@@ -38,4 +37,4 @@ def elast_kkt(index_name, csv_file):
             es.index(index=index_name, body=data)
             i += 1
 
-elast_kkt('ppttr', 'kkt_info_2021-02-05 3.csv')
+elast_kkt('test234', 'kkt_more.csv')
