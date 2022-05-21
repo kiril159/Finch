@@ -1,7 +1,7 @@
 from dagster_graphql import DagsterGraphQLClient
 from fastapi import FastAPI, HTTPException
 from elasticsearch import AsyncElasticsearch
-from Dags_part import time_job_1
+
 
 client = DagsterGraphQLClient("127.0.0.1", port_number=3000)
 app = FastAPI()

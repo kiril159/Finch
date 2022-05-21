@@ -4,39 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40962301-334c-49fd-bd79-a0c9c8b8361d" name="Changes" comment="elastic">
-      <change afterPath="$PROJECT_DIR$/Dag/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dag/tmpl0_m7xlj/history/runs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dag/tmpl0_m7xlj/history/runs.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dag/tmpl0_m7xlj/history/runs.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dag/tmpl0_m7xlj/history/runs/index.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dag/tmpl0_m7xlj/history/runs/index.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dag/tmpl0_m7xlj/history/runs/index.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dag/tmpl0_m7xlj/schedules/schedules.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dag/tmpl0_m7xlj/schedules/schedules.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dag/tmpl0_m7xlj/schedules/schedules.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Elastic/test_csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t6/CA.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t6/dagster_and_get/CA.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t6/dagster_and_get/Dags_part.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t6/dagster_and_get/get_dagster.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t6/dagster_and_get/t.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t6/fast_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t6/get_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t6/post_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpjcwcmwfi/history/runs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpjcwcmwfi/history/runs.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpjcwcmwfi/history/runs.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpjcwcmwfi/history/runs/index.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpjcwcmwfi/history/runs/index.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpjcwcmwfi/history/runs/index.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpjcwcmwfi/schedules/schedules.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpjcwcmwfi/schedules/schedules.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpjcwcmwfi/schedules/schedules.db-wal" afterDir="false" />
+    <list default="true" id="40962301-334c-49fd-bd79-a0c9c8b8361d" name="Changes" comment="dagster and get">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dagster/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3/1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/s3/1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t6/dagster_and_get/get_dagster.py" beforeDir="false" afterPath="$PROJECT_DIR$/t6/dagster_and_get/get_dagster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t6/dagster_and_get/t.py" beforeDir="false" afterPath="$PROJECT_DIR$/t6/dagster_and_get/t.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t6/get_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/t6/get_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t6/post_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/t6/post_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652665371003</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="dagster and get">
+      <created>1653064563977</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653064563977</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -317,6 +298,7 @@
     <MESSAGE value="elast" />
     <MESSAGE value="s3" />
     <MESSAGE value="elastic" />
-    <option name="LAST_COMMIT_MESSAGE" value="elastic" />
+    <MESSAGE value="dagster and get" />
+    <option name="LAST_COMMIT_MESSAGE" value="dagster and get" />
   </component>
 </project>

@@ -18,3 +18,5 @@ app = FastAPI()
 @app.post('/')
 async def post_1(fast: Fast_post):
     await es.index(index=fast.index, id=fast.id, body=fast.body)
+    return fast
+

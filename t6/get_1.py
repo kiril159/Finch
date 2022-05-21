@@ -18,6 +18,7 @@ app = FastAPI()
 @app.get("/")
 async def get(index, id):
     try:
-        return await es.get(index=index, id=id)
+        get_1 = await es.get(index=index, id=id)
+        return get_1['_source']
     except:
         raise HTTPException(status_code=404, detail="Item not found")
