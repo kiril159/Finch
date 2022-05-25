@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40962301-334c-49fd-bd79-a0c9c8b8361d" name="Changes" comment="dagster and get">
-      <change afterPath="$PROJECT_DIR$/Postgress_7/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Postgress_7/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Postgress_7/t.py" afterDir="false" />
+    <list default="true" id="40962301-334c-49fd-bd79-a0c9c8b8361d" name="Changes" comment="jwt token">
+      <change afterPath="$PROJECT_DIR$/Postgress_7/h.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dagster_2/1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dagster_2/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Postgress_7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Postgress_7/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Postgress_7/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Postgress_7/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3/downloading.py" beforeDir="false" afterPath="$PROJECT_DIR$/s3/downloading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3/list_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/s3/list_dir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3/print_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/s3/print_csv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +54,8 @@
       <recent name="$PROJECT_DIR$/elastic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.post_1">
-    <configuration name="elast_to_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.h">
+    <configuration name="downloading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Работа" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/elastic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elastic/elast_to_csv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s3/downloading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="post_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="h" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Работа" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +84,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FastApi_t6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Postgress_7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FastApi_t6/post_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Postgress_7/h.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_dir" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Работа" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s3/list_dir.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,49 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Работа" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/elastic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elastic/random_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Работа" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/t6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t6/t.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="upload" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="print_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Работа" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s3/upload.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s3/print_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.h" />
+        <item itemvalue="Python.list_dir" />
+        <item itemvalue="Python.downloading" />
+        <item itemvalue="Python.print_csv" />
         <item itemvalue="Python.post_1" />
-        <item itemvalue="Python.t" />
-        <item itemvalue="Python.post_" />
-        <item itemvalue="Python.upload" />
-        <item itemvalue="Python.elast_to_csv" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653156213769</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="postgress">
+      <created>1653260911389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653260911389</updated>
+    </task>
+    <task id="LOCAL-00014" summary="jwt token">
+      <created>1653489442763</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653489442764</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -304,6 +302,8 @@
     <MESSAGE value="s3" />
     <MESSAGE value="elastic" />
     <MESSAGE value="dagster and get" />
-    <option name="LAST_COMMIT_MESSAGE" value="dagster and get" />
+    <MESSAGE value="postgress" />
+    <MESSAGE value="jwt token" />
+    <option name="LAST_COMMIT_MESSAGE" value="jwt token" />
   </component>
 </project>

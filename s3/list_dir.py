@@ -13,5 +13,6 @@ def list_dir(path):
         s3_dir.append(key['Key'])
     return s3_dir
 
-p = list_dir('test')
-print(p)
+p = list_dir('reports/identified')
+for i in p:
+    print(i)

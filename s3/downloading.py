@@ -21,4 +21,4 @@ def download_f(path_to_file, path_to_save):
     client_s3.download_file(Bucket, path_to_file, path_to_save, Callback=countdown_s3)
 
 
-download_f('test/1.csv', '../1.csv')
+download_f('reports/identified/2019-01-27/identified_2019-01-27_Бананы.csv', '../1.csv')

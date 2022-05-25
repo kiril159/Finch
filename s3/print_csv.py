@@ -14,4 +14,4 @@ def print_csv(path_to_file):
             print(row)
 
 
-print_csv('test/1.csv')
+print_csv('reports/identified/2019-01-27/identified')
