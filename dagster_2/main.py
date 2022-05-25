@@ -6,11 +6,8 @@ session_s3 = boto3.Session(
         region_name='us-east-1')
 client_s3 = session_s3.client('s3', endpoint_url='https://storage.yandexcloud.net')
 Bucket = 'rosstat-storage'
-
+s3_dir=[]
 def take_files(date):
         for key in client_s3.list_objects(Bucket=Bucket, Prefix=f'reports/identified/{date}/')['Contents']:
                 s3_dir.append(key['Key'])
         return s3_dir
-
-for key in
-
