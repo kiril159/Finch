@@ -25,7 +25,7 @@ async def create_user(user_model: models.UserCreate):
                                          )
     for region in user_model.region:
         await user.region.add(await models.RegionModel.get(id=region))
-    return user
+    return user_model
 
 
 @app.post('/role')

@@ -33,8 +33,8 @@ class RegionModel(Model):
 class UserCreate(BaseModel):
     username: str
     password: str
-    role: str
-    region: list
+    role: int
+    region: list = [0]
 
 
 class RoleCreate(BaseModel):
