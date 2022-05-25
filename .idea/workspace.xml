@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40962301-334c-49fd-bd79-a0c9c8b8361d" name="Changes" comment="dagster and get">
-      <change afterPath="$PROJECT_DIR$/Postgress_7/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Postgress_7/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Postgress_7/t.py" afterDir="false" />
+    <list default="true" id="40962301-334c-49fd-bd79-a0c9c8b8361d" name="Changes" comment="postgress">
+      <change afterPath="$PROJECT_DIR$/Postgress_7/tghf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Postgress_7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Postgress_7/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Postgress_7/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Postgress_7/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653156213769</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="postgress">
+      <created>1653260911389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653260911389</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -304,6 +312,7 @@
     <MESSAGE value="s3" />
     <MESSAGE value="elastic" />
     <MESSAGE value="dagster and get" />
-    <option name="LAST_COMMIT_MESSAGE" value="dagster and get" />
+    <MESSAGE value="postgress" />
+    <option name="LAST_COMMIT_MESSAGE" value="postgress" />
   </component>
 </project>
