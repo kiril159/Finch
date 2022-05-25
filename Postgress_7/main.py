@@ -7,7 +7,7 @@ app = FastAPI()
 
 register_tortoise(
     app,
-    db_url="postgres://postgres:100401@localhost:5432/fast1",
+    db_url="postgres://postgres:100401@localhost:5432/user_roles",
     modules={"models": ["models"]},
     generate_schemas=True,
     add_exception_handlers=True,
@@ -17,7 +17,6 @@ reusable_oauth2 = HTTPBearer(
     scheme_name='Authorization'
 )
 
-
 @app.post('/user')
 async def create_user(user_model: models.UserCreate):
     user = await models.UserModel.create(username=user_model.username,
@@ -26,7 +25,7 @@ async def create_user(user_model: models.UserCreate):
                                          )
     for region in user_model.region:
         await user.region.add(await models.RegionModel.get(id=region))
-    return user_model
+    return user
 
 
 @app.post('/role')
@@ -60,3 +59,6 @@ async def login(request_data: models.LoginRequest):
         }
     except:
         raise HTTPException(status_code=404, detail="User not found")
+
+
+

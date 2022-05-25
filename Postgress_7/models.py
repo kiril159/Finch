@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 class UserModel(Model):
     id = fields.IntField(pk=True)
-    username = fields.CharField(max_length=50, unique=True)
+    username = fields.CharField(max_length=50)
     password = fields.CharField(max_length=50)
     role = fields.ForeignKeyField("models.RoleModel", related_name="user")
     region = fields.ManyToManyField("models.RegionModel", related_name="user", through="user_region")
@@ -33,8 +33,8 @@ class RegionModel(Model):
 class UserCreate(BaseModel):
     username: str
     password: str
-    role: int
-    region: list = [0]
+    role: str
+    region: list
 
 
 class RoleCreate(BaseModel):
