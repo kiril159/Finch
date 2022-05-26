@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40962301-334c-49fd-bd79-a0c9c8b8361d" name="Changes" comment="postgress">
-      <change afterPath="$PROJECT_DIR$/Postgress_7/tghf.py" afterDir="false" />
+    <list default="true" id="7320e792-8641-4d54-8b6c-c097e3543c5e" name="Changes" comment="h">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Postgress_7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Postgress_7/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Postgress_7/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Postgress_7/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dagster_2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dagster_2/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="40962301-334c-49fd-bd79-a0c9c8b8361d" name="Changes" comment="elast" />
+      <changelist id="7320e792-8641-4d54-8b6c-c097e3543c5e" name="Changes" comment="h" />
       <created>1650368649225</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -287,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653260911389</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="h">
+      <created>1653513601877</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653513601877</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -313,6 +319,7 @@
     <MESSAGE value="elastic" />
     <MESSAGE value="dagster and get" />
     <MESSAGE value="postgress" />
-    <option name="LAST_COMMIT_MESSAGE" value="postgress" />
+    <MESSAGE value="h" />
+    <option name="LAST_COMMIT_MESSAGE" value="h" />
   </component>
 </project>
