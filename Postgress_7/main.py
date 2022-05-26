@@ -46,7 +46,7 @@ async def authorization_user(username, password):
         await models.UserModel.get(username=username, password=password)
         return "Authorization was successful"
     except:
-        return "Incorrect username or password"
+        return "Incorrect tocken"
 
 
 @app.post('/login')
