@@ -1,8 +1,9 @@
 from fastapi import FastAPI, HTTPException, Depends
-from fastapi.security import HTTPBearer
 from tortoise.contrib.fastapi import register_tortoise
 import models
-from for_jwt import generate_token
+from for_jwt import generate_token,  validate_token
+from fastapi.security import HTTPBearer
+
 app = FastAPI()
 
 register_tortoise(
@@ -13,9 +14,7 @@ register_tortoise(
     add_exception_handlers=True,
 )
 
-reusable_oauth2 = HTTPBearer(
-    scheme_name='Authorization'
-)
+
 
 @app.post('/user')
 async def create_user(user_model: models.UserCreate):
@@ -40,7 +39,7 @@ async def create_region(region_model: models.RegionCreate):
     return region
 
 
-@app.get('/', dependencies=[Depends(reusable_oauth2)])
+@app.get('/', dependencies=[Depends(validate_token)])
 async def authorization_user(username, password):
     try:
         await models.UserModel.get(username=username, password=password)
@@ -59,6 +58,5 @@ async def login(request_data: models.LoginRequest):
         }
     except:
         raise HTTPException(status_code=404, detail="User not found")
-
 
 

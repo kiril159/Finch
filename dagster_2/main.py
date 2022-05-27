@@ -1,4 +1,5 @@
 import boto3
+import smart_open
 
 session_s3 = boto3.Session(
     aws_access_key_id='q3dEt2FODkSFF3AeM3_w',
@@ -16,3 +17,4 @@ def take_files(date):
 
 
 def count_s3(list_of_files):
+    for
