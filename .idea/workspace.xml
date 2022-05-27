@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7320e792-8641-4d54-8b6c-c097e3543c5e" name="Changes" comment="h">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Postgress_7/for_jwt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Postgress_7/for_jwt.py" afterDir="false" />
+    <list default="true" id="7320e792-8641-4d54-8b6c-c097e3543c5e" name="Changes" comment="jwt">
       <change beforePath="$PROJECT_DIR$/Postgress_7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Postgress_7/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dagster_2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dagster_2/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653574900238</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="jwt">
+      <created>1653641013449</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1653641013449</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -334,6 +338,7 @@
     <MESSAGE value="dagster and get" />
     <MESSAGE value="postgress" />
     <MESSAGE value="h" />
-    <option name="LAST_COMMIT_MESSAGE" value="h" />
+    <MESSAGE value="jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="jwt" />
   </component>
 </project>
