@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7320e792-8641-4d54-8b6c-c097e3543c5e" name="Changes" comment="jwt">
-      <change afterPath="$PROJECT_DIR$/dagster_2/2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tmpjx8i7eze/history/runs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tmpjx8i7eze/history/runs.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tmpjx8i7eze/history/runs.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tmpjx8i7eze/history/runs/index.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tmpjx8i7eze/history/runs/index.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tmpjx8i7eze/history/runs/index.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tmpjx8i7eze/schedules/schedules.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tmpjx8i7eze/schedules/schedules.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tmpjx8i7eze/schedules/schedules.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dagster_2/tt.py" afterDir="false" />
+    <list default="true" id="7320e792-8641-4d54-8b6c-c097e3543c5e" name="Changes" comment="parallel op">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dagster_2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dagster_2/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3/Write_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/s3/Write_csv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3/list_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/s3/list_dir.py" afterDir="false" />
     </list>
@@ -311,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653641122670</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="parallel op">
+      <created>1653656271056</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1653656271056</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -339,6 +334,7 @@
     <MESSAGE value="postgress" />
     <MESSAGE value="h" />
     <MESSAGE value="jwt" />
-    <option name="LAST_COMMIT_MESSAGE" value="jwt" />
+    <MESSAGE value="parallel op" />
+    <option name="LAST_COMMIT_MESSAGE" value="parallel op" />
   </component>
 </project>

@@ -32,10 +32,10 @@ def count_files(file_path):
         reader = csv.DictReader(csv_f)
         category = file_path[file_path.index(f'identified_') + 22:file_path.index('.csv')]
         for row in reader:
-            if row['Регион'] in s3_count.keys():
-                s3_count[row['Регион']] += float(row['Объем'])
+            if row['ОКАТО'][:2] in s3_count.keys():
+                s3_count[row['ОКАТО'][:2]] += float(row['Объем'])
             else:
-                s3_count[row['Регион']] = float(row['Объем'])
+                s3_count[row['ОКАТО'][:2]] = float(row['Объем'])
     res = []
     res.append(s3_count)
     res.append(category)
