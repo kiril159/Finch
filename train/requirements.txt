@@ -1,0 +1,9 @@
+jwt
+fastapi
+pydantic
+datetime
+typing
+fastapi
+tortoise-orm
+uvicorn
+asyncpg

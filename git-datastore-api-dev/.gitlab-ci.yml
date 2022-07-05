@@ -1,0 +1,39 @@
+variables:
+  CONTAINER_IMAGE: $CI_REGISTRY/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME
+
+stages:
+  - build
+  - reload_service
+
+push:
+  image: docker:stable
+  stage: build
+  tags:
+    - cloud
+    - worker
+  before_script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+  script:
+    - docker build -t $CONTAINER_IMAGE:$CI_BUILD_REF_NAME .
+    - docker push $CONTAINER_IMAGE:$CI_BUILD_REF_NAME
+    - docker tag $CONTAINER_IMAGE:$CI_BUILD_REF_NAME $CONTAINER_IMAGE:$CI_PIPELINE_ID
+    - docker push $CONTAINER_IMAGE:$CI_PIPELINE_ID
+  only:
+    - dev
+
+
+reload_service_develop:
+  image: docker/compose:debian-1.29.2
+  tags: 
+    - cloud
+    - worker
+  stage: reload_service
+  before_script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+  script:
+    - sed -ri "s/IMAGE_TAG=/IMAGE_TAG=${CI_PIPELINE_ID}/" compose/.env
+    - sed -ri "s/IMAGE=/IMAGE=${CI_REGISTRY}\/${CI_PROJECT_NAMESPACE}\/${CI_PROJECT_NAME}/" compose/.env
+    - docker-compose -f compose/docker-compose.yml rm -fs || true
+    - docker-compose -f compose/docker-compose.yml up -d
+  only:
+    - dev

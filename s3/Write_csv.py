@@ -8,7 +8,7 @@ def write_csv(path_to_file):
             region_name='us-east-1')
     client_s3 = session_s3.client('s3', endpoint_url='https://storage.yandexcloud.net')
     Bucket = 'rosstat-storage'
-    with open(f's3://{Bucket}/{path_to_file}', 'w', transport_params={'client': client_s3}) as csv_f:
+    with open(f's3://{Bucket}/{path_to_file}', 'w', transport_params={'client': client_s3}, encoding='utf-8') as csv_f:
         with open('1.csv', 'r') as loc_f:
             for row in loc_f:
                 csv_f.write(row)

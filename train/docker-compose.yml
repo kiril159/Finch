@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data/pgdata
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 100401
+      POSTGRES_DB: user_roles
+      PGDATA: /var/lib/postgresql/data/pgdata
+    restart: always
+  app:
+    build: .
+    container_name: application
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgres://postgres:100401@db:5432/user_roles
+    restart: always
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
+

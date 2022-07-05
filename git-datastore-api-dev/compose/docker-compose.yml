@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  api:
+    env_file:
+      - .env
+    container_name: datastore-api
+    image: ${IMAGE}:${IMAGE_TAG}
+    restart: always
+    environment:
+      - TOKEN=glpat-azPDstDWoyosiS7U2SZS
+    ports:
+      - "10090:80"
