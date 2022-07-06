@@ -1,2 +1,0 @@
-final_task
-final_task_tests

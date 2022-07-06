@@ -1,0 +1,37 @@
+version: "3.7"
+
+services:
+
+  # This service runs dagit, which loads the pipelines from the user code container.
+  # Since our instance uses the QueuedRunCoordinator, any runs submitted from dagit will be put on
+  # a queue and later dequeued and launched by dagster-daemon.
+  dagit:
+    build: .
+    entrypoint:
+      - dagit
+      - -h
+      - "0.0.0.0"
+      - -p
+      - "3000"
+      - -w
+      - workspace.yaml
+    container_name: dagit
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+
+
+  # This service runs the dagster-daemon process, which is responsible for taking runs
+  # off of the queue and launching them, as well as creating runs from schedules or sensors.
+  daemon:
+    build: .
+    entrypoint:
+      - dagster-daemon
+      - run
+    container_name: daemon
+    restart: always
+
+
+
+

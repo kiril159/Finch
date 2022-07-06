@@ -1,0 +1,5 @@
+fastapi
+dagster_graphql
+gspread
+dagster
+dagit
